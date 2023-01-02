@@ -1,0 +1,217 @@
+  body{
+    background-image: linear-gradient(to bottom, orange,green,red,blue) ;
+}
+.header__container{
+    padding-top: 0px;
+    border-radius: 5px;
+    font-family: cursive,'Times New Roman', Times, serif;
+    min-width: 800px;
+    height: 30px;
+    font-size: 20px;
+    text-align: right;
+}
+.a--style{
+    text-decoration:none;
+    font-style:italic;
+    color: white;
+    text-transform: capitalize;
+}
+.a--style:hover{
+    color: red;
+}
+.body__container{
+ border-radius: 20px;
+ margin-top: 100px;
+ min-width: 1000px;
+}
+.Welcome__container{
+    background-image:linear-gradient(to top, white,transparent, white);
+    text-align: center;
+    border-radius: 20px;
+    min-width: 1000px;
+    margin:100px;
+    padding: 100px;
+}
+.Contact-me--button{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-left: 755px;
+    font-size: 15px;
+    border-radius: 100px;
+}
+.Contact-me--button:hover{
+    color: white;
+    border-color: black;
+    cursor:grab;
+    animation: button 2s infinite;
+}
+@keyframes button{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color:purple ;
+    }
+    100%{
+        background-color: blue;
+    }
+   }
+.content__container{
+    display: flex;
+    align-content: center;
+}
+.Aboutme__container{
+    background-image:linear-gradient(to top, white,transparent,white);
+    border-radius: 20px;
+    margin:100px;
+    padding: 100px;
+    min-width: 1000px;
+    font-size: 150%;
+}
+.Aboutme__container> h2{
+    text-align: center;
+    margin-top: 0px;
+}
+.paragraph__container{
+    text-align: justify;
+    font-size: 120%;
+    width: 500px;
+    min-width: 500px;
+    margin: 2px 200px auto 50px;
+}
+img{
+    margin-top:30px ;
+    margin-left: -50px ;
+}
+.Skills__container{
+    background-image:linear-gradient(to top, white,transparent,white);
+    border-radius: 20px;
+    margin:100px;
+    padding: 100px;
+    min-width: 1000px;
+}
+.Skills__container> h2{
+    text-align: center;
+}
+.Skills__container> div{
+    padding: 2px;
+    margin: 5px auto;
+}
+.name--style{
+    font-size: 120%;
+    color:white ;
+}
+.Skills--li--style{
+    display: inline-block;
+}
+.Cursus__container{
+    background-image:linear-gradient(to top, white,transparent,white);
+    text-align: center;
+    border-radius: 20px;
+    margin:100px;
+    padding: 100px;
+    min-width: 1000px;
+}
+.Projects__container{
+    background-image:linear-gradient(to top, white,transparent,white);
+    text-align: center;
+    border-radius: 20px;
+    margin:100px;
+    padding: 100px;
+    min-width: 1000px;
+}
+img{
+    width: 250px;
+    height:350px;
+    border-radius: 20px;
+}
+
+.header--li--style {
+    display: inline-block;
+    margin-left: 40px;
+    list-style: none;
+    text-align: center;
+}
+.icone--style{
+    font-size: xx-large;
+    color: red;
+}
+.progression{
+    width: 400px;
+    max-height: 20px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-color: transparent;
+    display:flex;
+    margin-bottom: 10px;
+}
+.Network--progression , .Coding--progression, .Web--progression{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: #355326;
+    color: white;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+.Network--progression{
+    width: 120px;
+    background-color: blue;
+    animation: Progression 10s infinite ;
+    border: none;
+}
+.Network--progression--percent{
+    border: 2px solid blue;
+}
+.Coding--progression{
+    width: 200px;
+    background-color: green;
+    animation: Progression 10s infinite ;
+}
+.Coding--progression--percent{
+    border: 2px solid green;
+}
+.Web--progression{
+    width: 300px;
+    background-color: red;
+    animation: Progression 10s infinite ;
+}
+.Web--progression--percent{
+    border: 2px solid red;
+}
+.progression--percent{
+    height: 28px;
+    width: 28px;
+    color: black;
+    margin-right: -25px;
+    margin-top: -6px;
+    font-weight: bolder;
+    float: right;
+    background:white;
+    border-radius: 50%;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+@keyframes Progression{
+    0%{
+        width:0 ;
+        color: transparent;
+    }
+    60%{
+       color: transparent;
+    }
+}
+
+.Cursus--li--style{
+    list-style: none;
+    text-align: center;
+}
+.Arrow{
+font-size: 60px;
+color: white;
+}
