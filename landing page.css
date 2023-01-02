@@ -1,0 +1,114 @@
+body{
+    /* background-image: url(./Mali/drapeau2-Mali.jpg); */
+    /* background-image: url(./Mali/mali-travel.jpg); */
+    background-image: url(./Mali/mali-ornament.jpg);
+    background-repeat:no-repeat;
+    background-size: 1400px 750px;
+    font-size: 2em;
+}
+.container{
+    height: 700px;
+}
+/* @keyframes body{ */
+    /* 0%{ */
+        /* background-color: green; */
+    /* } */
+    /* 50%{ */
+        /* background-color: yellow; */
+    /* } */
+    /* 100%{ */
+        /* background-color:red; */
+    /* } */
+/* } */
+.header{
+    min-width: 800px;
+    margin-top: 0;
+    text-align: right;
+    /* background-image:linear-gradient(to bottom, green,yellow,red); */
+    background-color: transparent;
+    font-family: cursive, 'Times new romains', serif;
+}
+    .element--link{
+    text-decoration: none;
+    /* color:white; */
+    color: white;
+    font-weight: bolder;
+}
+.element--link:hover {
+    /* background-image:linear-gradient(to right,green,yellow,red) ; */
+    border-radius: 5px;
+    animation:link 2s infinite;
+}
+.header--elements{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 50%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes link{
+    0%{
+      color: 3px white  ;
+    }
+    50%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+.message__container{
+    min-width: 500px;
+    font-size: 200%;
+    letter-spacing: 5px;
+    /* margin-top: 150px; */
+    /* margin-left: 525px; */
+    margin-top: 50px;
+    margin-left: 80px;
+    color: white;
+}
+.welcome--message{
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-left:30px ;
+    font-size: 50%;
+    letter-spacing: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mali--message{
+    list-style-type: none;
+    font-size: 175%;
+    font-weight: bolder;
+}
+.enter--button{
+    margin-top: 80px;
+    margin-left:125px;
+    font-size: 75%;
+    /* margin-left:591px; */
+    width: 200px;
+    height: 50px;
+    border: 3px solid transparent;
+    background-color:red ;
+    color: white;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Times new romains', serif ;
+}
+.enter--button:hover {
+    animation: button 3s infinite;
+    color: black;
+    font-weight: bold;
+    /* background-color: red; */
+    background-image:linear-gradient(to right, green,yellow,red);
+    cursor:pointer;
+}
+@keyframes button{
+    0%{
+      border-color: green  ;
+    }
+    50%{
+        border-color: yellow;
+    }
+    100%{
+        border-color: red;
+    }
+}
